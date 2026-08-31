@@ -1,22 +1,28 @@
-# Roman QSO Detection — Data Files
+# Data Files
 
-The large quasar catalog files used in this project are not included in this repository.
+The large catalog files used in this project are not included in the GitHub repository.
 
-Download the following data files before running the notebooks.
+Download both catalogs below and place them in the same directory as the notebooks.
 
 ## Wu & Shen (2022) — SDSS DR16Q
 
-[Paper](https://arxiv.org/abs/2209.03987)
+Paper:
 
-[Catalog and tutorial repository](https://github.com/QiaoyaWu/sdss4_dr16q_tutorial)
+[Wu & Shen (2022)](https://arxiv.org/abs/2209.03987)
 
-Download the DR16Q spectral-property catalog:
+Catalog/tutorial repository:
+
+[SDSS DR16Q Catalog](https://github.com/QiaoyaWu/sdss4_dr16q_tutorial)
+
+Download the DR16Q spectral-property catalog.
+
+Expected filename:
 
 ```text
 dr16q_prop_Oct20_2022.fits
+```
 
 Place the file in the same directory as the notebooks.
-
 
 ## Shen et al. (2011) — SDSS DR7
 
@@ -37,13 +43,7 @@ catalog.dat.gz
 ReadMe
 ```
 
-Unzip:
-
-```text
-catalog.dat.gz
-```
-
-to produce:
+Unzip `catalog.dat.gz` to produce:
 
 ```text
 catalog.dat
@@ -52,17 +52,3 @@ catalog.dat
 Rename `ReadMe` to `ReadMe.txt` if needed.
 
 Place both files in the same directory as the notebooks.
-
-
-## Local Project Files
-
-After downloading the catalogs, the directory should contain:
-
-```text
-Roman_QSO_Detection/
-├── Roman_Prob.ipynb
-├── QSO_Detection_Code.ipynb
-├── dr16q_prop_Oct20_2022.fits
-├── catalog.dat
-└── ReadMe.txt
-```
